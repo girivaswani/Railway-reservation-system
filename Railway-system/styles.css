@@ -1,0 +1,111 @@
+body{
+    background-image: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)),url(https://wallpapercave.com/wp/wp4740888.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+/* input:hover{
+    background-color:lightyellow;
+} */
+a.adv:link{color:blue}
+a.adv:hover{text-decoration: underline;}
+
+.cont{
+    height:300px;
+    width:400px;
+    /* background-color:#525252; */
+    padding: 10px;
+    margin: 0 auto;
+}
+.ease {
+	width: 0px;
+	height: 74px;
+	background-color: #fbfbfb;
+	transition: .3s ease;
+}
+
+
+
+.button-blue{
+	font-family: 'Montserrat', Arial, Helvetica, sans-serif;
+	float:left;
+	width: 100%;
+	border: #fbfbfb solid 4px;
+	cursor:pointer;
+	background-color: #0066ff;
+	color:white;
+	font-size:24px;
+	padding-top:22px;
+	padding-bottom:22px;
+	transition: all 0.3s;
+  margin-top:-4px;
+  font-weight:700;
+}
+.form-main{
+	width:100%;
+	float:left;
+	padding-top:0px;
+}
+@media  only screen and (max-width: 580px) {
+	.form-div{
+		left: 3%;
+		margin-right: 3%;
+		width: 88%;
+		margin-left: 0;
+		padding-left: 3%;
+		padding-right: 3%;
+	}
+}
+.form-div {
+	background-color:rgba(72,72,72,0.4);
+	padding-left:35px;
+	padding-right:35px;
+	padding-top:35px;
+	padding-bottom:50px;
+	width: 450px;
+	float: left;
+	left: 50%;
+	position: absolute;
+    margin-top:30px;
+	margin-left: -260px;
+  border-radius: 7px;
+  
+}
+.form1{
+
+    background-size: 30px 30px;
+	background-position: 155px 8px;
+	background-repeat: no-repeat;
+
+}
+
+.cont1{
+    height:80%;
+    width:400px;
+    /*background-color:#525252;*/
+    padding: 10px;
+    margin: 0 auto;
+}
+
+.box {
+    width: 500px;
+    padding: 40px;
+    position: absolute;
+    top: 4%;
+    left: 30%;
+    background-color: rgba(189, 253, 137, 0.5) !important;
+    opacity: 1.0;
+    text-align: center;
+    transition: 0.25s;
+    margin-top: 100px
+}
+
+.listtable td, .listtable tr, .listtable th{
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+.bgcont{
+    background-color: lightyellow;
+    height:300px;
+    width:400px;
+}
